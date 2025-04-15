@@ -11,7 +11,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 **We are not viable for any damages you sustain due to malware!!!**
 **The best antivirus is staying vigilant with what you do in the internet!!!**
 # How to use
-  # Just run the executable!
+  **Just run the executable!**
 # Build from source
 This is still in alpha, so has not been built yet.
 
