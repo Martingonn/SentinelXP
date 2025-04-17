@@ -13,7 +13,6 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 # Disclaimer!!!
 **We are not viable for any damages you sustain due to malware!!!**
 **The best antivirus is staying vigilant with what you do in the internet!!!**
-# Structure 
 # How to use
   **Just run the executable!**
 # Build from source
