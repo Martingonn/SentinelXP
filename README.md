@@ -17,7 +17,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 # How to use
   **Just run the executable!**
 # Build from source
- # Structure
+<br>**Structure**
  <br>SentinelXP
  <br>-->SentinelInterface.exe
  <br>-->compare_hashes
