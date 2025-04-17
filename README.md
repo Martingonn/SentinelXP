@@ -22,10 +22,15 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>-->SentinelInterface.exe
  <br>-->compare_hashes
  <br>-->malware_hashes
+    <br>-->malware_hashes_list.txt
  <br>-->packet_inspection
  <br>-->port_scanning
+ <br>-->phishing_prevention
+    <br>-->phishing_website_list.txt
  <br>-->logs
-    <br>-->logs.txt
+    <br>-->malware_on_device.txt
+    <br>-->malicious_packets.txt
+    <br>-->connections.txt
 <br>This is still in alpha, so has not been built yet.
 
 # Future Additions
