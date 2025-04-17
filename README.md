@@ -18,20 +18,21 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
   **Just run the executable!**
 # Build from source
  # Structure
- SentinelXP
- -->SentinelInterface.exe
- -->compare_hashes
- -->malware_hashes
- -->packet_inspection
- -->port_scanning
- -->logs
-    -->logs.txt
-This is still in alpha, so has not been built yet.
+ <br>SentinelXP
+ <br>-->SentinelInterface.exe
+ <br>-->compare_hashes
+ <br>-->malware_hashes
+ <br>-->packet_inspection
+ <br>-->port_scanning
+ <br>-->logs
+    <br>-->logs.txt
+<br>This is still in alpha, so has not been built yet.
 
 # Future Additions
 * Packet inspection
 * Monitoring port connections
 * Opening .exe and inspecting contents
+* Anti-phishing website module
 
 # Downloads
 ![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/SentinelXP/total)
