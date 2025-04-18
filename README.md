@@ -34,16 +34,15 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>-->malicious_packets.txt
     <br>-->connections.txt
 <br>**Build tools**
-You will need:
+<br>You will need:
 <br>MinGW,
-<br>simhash-2.1.2 (uncompressed)
+<br>simhash-2.1.2.whl,
 <br>python3.4
 1. Put these on USB/combine into .iso file.
 2. On Windows XP, put MinGW folder into C: folder.
 3. Add ";C:\mingw32\bin;C:\mingw32" to system "Path" variable.
-4. Get into Python library folder (for example: simhash).
-5. Run setup.py
-
+4. Run "pip install simhash-2.1.2.whl
+Still making instructions, so don't worry yet.
 
 # Future Additions
 * Packet inspection
