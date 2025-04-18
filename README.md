@@ -5,8 +5,11 @@ There will be a few scripts combined by an interface.
 # Original Author 
 Development was started on April 13th, 2025, by Marcin Jacek Chmiel.
 # Contributors 
+ <br>***Code***
 As of now, there are no more contributors than the original author.
 If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com*
+ <br>***Encouragement***
+ xperceniol over on WindowsXP forums: https://www.xpforums.com/members/xperceniol.2881/
  # How can you contribute?
  Simply make a contribution here, on Github. Another, better way, would be to send me links to malware repositories so that I can train the antivirus.
  <br> Remember, you have to send me the links/files yourself, as I have no server to send the files to. When I will have, I will only send out file hashes. You will be able to see that, as the project will be open-source forever.
