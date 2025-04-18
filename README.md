@@ -33,7 +33,17 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>-->malware_on_device.txt
     <br>-->malicious_packets.txt
     <br>-->connections.txt
-<br>This is still in alpha, so has not been built yet.
+<br>**Build tools**
+You will need:
+<br>MinGW,
+<br>simhash-2.1.2 (uncompressed)
+<br>python3.4
+1. Put these on USB/combine into .iso file.
+2. On Windows XP, put MinGW folder into C: folder.
+3. Add ";C:\mingw32\bin;C:\mingw32" to system "Path" variable.
+4. Get into Python library folder (for example: simhash).
+5. Run setup.py
+
 
 # Future Additions
 * Packet inspection
