@@ -23,9 +23,9 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>SentinelXP
  <br>-->SentinelInterface.exe
  <br>-->compare_hashes
- <br>-->-->detected_malware.txt
+ <br>-->-->malware_log.txt
  <br>-->malware_hashes
-    <br>-->malware_hashes_list.txt
+    <br>-->malware_list.txt
  <br>-->packet_inspection
  <br>-->connection_monitor.exe
  <br>-->-->connection_monitor.exe
@@ -34,9 +34,13 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>-->-->whitelisted_ports.txt
  <br>-->-->blocked_ips.txt
  <br>-->-->blocked_ports.txt
+ <br>-->-->connection_logs.txt
  <br>-->phishing_prevention
+    <br>phishing_prevention.exe
     <br>-->phishing_website_list.txt
     <br>warning.html
+ <br>-->log_viewer
+ <br>-->-->log_viewer.exe
 <br>**Build tools**
 <br>You will need:
 <br>Pyinstaller (for compiling .py into .exe),
