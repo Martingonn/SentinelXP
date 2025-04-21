@@ -39,8 +39,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>phishing_prevention.exe
     <br>-->phishing_website_list.txt
     <br>warning.html
- <br>-->log_viewer
- <br>-->-->log_viewer.exe
+ <br>-->log_viewer.exe
 <br>**Build tools**
 <br>You will need:
 <br>Pyinstaller (for compiling .py into .exe),
