@@ -38,7 +38,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>Pyinstaller (for compiling .py into .exe),
 <br>Libraries for every script
 <br>------------------------------------------
-<br>1. Install BuildToolsXXXX.iso to your Windows XP machine.
+<br>1. Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
 <br>2. Run the Python 2.7 installer, add it to System Path.
 <br>3. Extract all of the libraries.
 <br>4. Run "python setup.py install" in the library folder to install it.
