@@ -35,14 +35,22 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>-->connections.txt
 <br>**Build tools**
 <br>You will need:
-<br>MinGW,
-<br>simhash-2.1.2.whl,
-<br>python3.4
-1. Put these on USB/combine into .iso file.
-2. On Windows XP, put MinGW folder into C: folder.
-3. Add ";C:\mingw32\bin;C:\mingw32" to system "Path" variable.
-4. Run "pip install simhash-2.1.2.whl
-Still making instructions, so don't worry yet.
+<br>Pyinstaller (for compiling .py into .exe),
+<br>Libraries for every script
+<br>------------------------------------------
+<br>1. Install BuildToolsXXXX.iso to your Windows XP machine.
+<br>2. Run the Python 2.7 installer, add it to System Path.
+<br>3. Extract all of the libraries.
+<br>4. Run "python setup.py install" in the library folder to install it.
+<br>Install the libraries furthest on the right first:
+<br>*Pyinstaller*
+<br>*|---pywin32-ctypes-0.2.0*
+<br>*|---altgraph-0.17.4*
+<br>*|---pefile-2017.8.1*
+<br>*|---|---future-18.2*
+<br>5. Once you installed everything, run "pyinstaller --version"
+<br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
+<br>6. Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
 
 # Future Additions
 * Packet inspection
