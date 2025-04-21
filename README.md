@@ -57,6 +57,9 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 * Monitoring port connections
 * Opening .exe and inspecting contents
 * Anti-phishing website module
+* GUI version (maybe)
+* Menu module to operate on other modules
+* Sneaky download prevention
 
 # Downloads
 ![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/SentinelXP/total)
