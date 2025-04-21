@@ -23,27 +23,31 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>SentinelXP
  <br>-->SentinelInterface.exe
  <br>-->compare_hashes
+ <br>-->-->detected_malware.txt
  <br>-->malware_hashes
     <br>-->malware_hashes_list.txt
  <br>-->packet_inspection
- <br>-->port_scanning
+ <br>-->connection_monitor.exe
+ <br>-->-->connection_monitor.exe
+ <br>-->-->whitelisted_specific.txt
+ <br>-->-->whitelisted_ips.txt
+ <br>-->-->whitelisted_ports.txt
+ <br>-->-->blocked_ips.txt
+ <br>-->-->blocked_ports.txt
  <br>-->phishing_prevention
     <br>-->phishing_website_list.txt
- <br>-->logs
-    <br>-->malware_on_device.txt
-    <br>-->malicious_packets.txt
-    <br>-->connections.txt
+    <br>warning.html
 <br>**Build tools**
 <br>You will need:
 <br>Pyinstaller (for compiling .py into .exe),
-<br>Libraries for every script
+<br>Libraries for the script that you will be compiling (like compare_hashes)
 <br>------------------------------------------
 <br>1. Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
 <br>2. Run the Python 2.7 installer, add it to System Path.
 <br>3. Extract all of the libraries.
 <br>4. Run "python setup.py install" in the library folder to install it.
 <br>Install the libraries furthest on the right first:
-<br>**Pyinstaller**
+<br>**Pyinstaller 3.5**
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.17.4*
 <br>*|---pefile-2017.8.1*
