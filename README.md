@@ -47,7 +47,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.17.4*
 <br>*|---pefile-2017.8.1*
-<br>*|---|---future-18.2*
+<br>*|---|---future-0.18.2*
 <br>5. Once you installed everything, run "pyinstaller --version"
 <br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
 <br>6. Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
