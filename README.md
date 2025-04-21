@@ -43,7 +43,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>3. Extract all of the libraries.
 <br>4. Run "python setup.py install" in the library folder to install it.
 <br>Install the libraries furthest on the right first:
-<br>*Pyinstaller*
+<br>**Pyinstaller**
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.17.4*
 <br>*|---pefile-2017.8.1*
