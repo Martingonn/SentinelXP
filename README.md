@@ -45,19 +45,19 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>Pyinstaller (for compiling .py into .exe),
 <br>Libraries for the script that you will be compiling (like compare_hashes)
 <br>------------------------------------------
-<br>1. Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
-<br>2. Run the Python 2.7 installer, add it to System Path.
-<br>3. Extract all of the libraries.
-<br>4. Run "python setup.py install" in the library folder to install it.
+<br>***1. ***Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
+<br>***2.*** Run the Python 2.7 installer, add it to System Path.
+<br>***3.*** Extract all of the libraries.
+<br>***4.*** Run "python setup.py install" in the library folder to install it.
 <br>Install the libraries furthest on the right first:
 <br>**Pyinstaller 3.5**
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.17.4*
 <br>*|---pefile-2017.8.1*
 <br>*|---|---future-0.18.2*
-<br>5. Once you installed everything, run "pyinstaller --version"
+<br>***5.*** Once you installed everything, run "pyinstaller --version"
 <br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
-<br>6. Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
+<br>***6.*** Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
 <br>
 <br>***Update:*** I am experimenting with virtualenv using Python 2.7, because Windows XP was a pain with system paths and not detecting installed libraries. Will compile in virtualenv using Pyinstaller, then test on Windows XP VM. 
 
