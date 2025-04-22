@@ -58,6 +58,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>5. Once you installed everything, run "pyinstaller --version"
 <br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
 <br>6. Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
+<br>***Update*** I am experimenting with virtualenv using Python 2.7, because Windows XP was a pain with system paths and not detecting installed libraries. Will compile in virtualenv using Pyinstaller, then test on Windows XP VM. 
 
 # Future Additions
 * Packet inspection
