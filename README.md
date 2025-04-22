@@ -40,7 +40,35 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>-->phishing_website_list.txt
     <br>warning.html
  <br>-->log_viewer.exe
-<br>**Build tools**
+<br>**Set up venv for compilation**
+<br>Before you start, set up folder with required libraries for PyInstaller. You can get them here (as locating them took A LOT of time): **<a href=https://github.com/Martingonn/SentinelXP/tree/main/Build/Libraries/pyinstaller> (still on repo) </a>**
+<br>Make sure you also have a folder with virtualenv: **<a href=https://github.com/Martingonn/SentinelXP/tree/main/Build/Libraries/virtualenv> (still on repo) </a>**
+<br>__1.__ Download Python 2.7 on your device.
+<br>__2.__ Run the installer.
+<br>__3.__ Make sure Python path is C:\Python27 for ease. Otherwise you will have to change the path in commands.
+<br>__4.__ Enter the uncompressed folder with virtualenv (where setup.py is located).
+<br>__5.__ Run "*C:\Python27\python.exe setup.py install".* If you have a different Python 2.7 path, change "*C:\Python27\python.exe*" from now on.
+<br>__6.__ Once virtualenv is installed, run these commands in the directory that you want your venv in:
+<br>
+<br>__*C:\Python27\Scripts\virtualenv.exe --python=C:\Python27\python.exe myenv*__ 
+<br>
+<br>__*.\myenv\Scripts\activate*__ or __*myenv\Scripts\activate*__
+<br>
+<br>To run a script in the venv, run *__C:\Python27\python.exe script_name.py__*
+<br>__7.__ Go into folder with Pyinstaller libraries (still in venv).
+<br>__8.__ Install the libraries furthest on the right first:
+<br>**For example, Pyinstaller required Pefile, which requires Future**
+<br>**Pyinstaller 3.5**
+<br>*|---setuptools-42.0.2
+<br>*|---dis3-0.1.3
+<br>*|---pywin32-ctypes-0.2.0*
+<br>*|---altgraph-0.16.1*
+<br>*|---pefile-2019.4.18*
+<br>*|---|---future-0.18.2*
+<br>***Note: install all of these packages manually***, as Python 2.7 has broken SSL compatibility and is unable to install the packages itself. This is how I did it.
+<br>Test using *__pyinstaller --version__*
+<br>NOTE: As of writing, it is unknown if Python 2.7 scripts compiled using Pyinstaller 3.5 on Windows 11 work on Windows XP.
+<br>**Build tools on Windows XP**
 <br>You will need:
 <br>Pyinstaller (for compiling .py into .exe),
 <br>Libraries for the script that you will be compiling (like compare_hashes)
@@ -58,8 +86,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>***5.*** Once you installed everything, run "pyinstaller --version"
 <br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
 <br>***6.*** Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
-<br>
-<br>***Update:*** I am experimenting with virtualenv using Python 2.7, because Windows XP was a pain with system paths and not detecting installed libraries. Will compile in virtualenv using Pyinstaller, then test on Windows XP VM. 
+
 
 # Future Additions
 * Packet inspection
