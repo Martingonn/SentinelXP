@@ -41,7 +41,8 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
     <br>warning.html
  <br>-->log_viewer.exe
 <br>**Set up venv for compilation**
-<br>Before you start, set up folder with required libraries for PyInstaller. You can get them here (as locating them took A LOT of time): **<a href=https://github.com/Martingonn/SentinelXP/tree/main/Build/Libraries/pyinstaller> (still on repo) </a>**
+<br>Before you start, set up folder with required libraries for PyInstaller 3.5. You can get them here (as locating them took A LOT of time): **<a href=https://github.com/Martingonn/SentinelXP/tree/main/Build/Libraries/pyinstaller> (still on repo) </a>**
+<br>For Pyinstaller 3.3 (better) download this: <a href="https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/pyinstaller33withLibs.iso">(still on repo)</a>
 <br>Make sure you also have a folder with virtualenv: **<a href=https://github.com/Martingonn/SentinelXP/tree/main/Build/Libraries/virtualenv> (still on repo) </a>**
 <br>__1.__ Download Python 2.7 on your device.
 <br>__2.__ Run the installer.
