@@ -73,7 +73,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>*|---|Pefile-2017.8.1
 <br>***Note: install all of these packages manually***, as Python 2.7 has broken SSL compatibility and is unable to install the packages itself. This is how I did it.
 <br>Test using *__pyinstaller --version__*
-<br>NOTE: As of writing, it is unknown if Python 2.7 scripts compiled using Pyinstaller 3.5 on Windows 11 work on Windows XP.
+<br>NOTE: As of writing, it is unknown if Python 2.7 scripts compiled using Pyinstaller 3.3 on Windows 11 work on Windows XP. Pyinstaller 3.5 abandoned due to various problems.
 <br>**Build tools on Windows XP**
 <br>You will need:
 <br>Pyinstaller (for compiling .py into .exe),
@@ -81,7 +81,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>------------------------------------------
 <br>***1. ***Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
 <br>*__|--->__* For Pyinstaller 3.3 (better) download this: <a href="https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/pyinstaller33withLibs.iso">(still on repo)</a> and run on Windows XP
-<br>***2.*** Run the Python 2.7 installer, add Python 2.7 to System Path.
+<br>***2.*** Run the Python 2.7 installer (not included in .iso due to Github file size restrictions), add C:\Python27 and C:\Python27\Scripts to System Path if not added automatically.
 <br>***3.*** Extract all of the libraries.
 <br>***4.*** Run "python setup.py install" in the library folder to install it.
 <br>Install the libraries furthest on the right first:
