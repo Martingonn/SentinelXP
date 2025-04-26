@@ -80,6 +80,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>Libraries for the script that you will be compiling (like compare_hashes)
 <br>------------------------------------------
 <br>***1. ***Install BuildTools.iso to your Windows XP machine. Here is the <a href=https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/BuildTools.iso>link (still on repo)</a>
+<br>For Pyinstaller 3.3 (better) download this: <a href="https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/pyinstaller33withLibs.iso">(still on repo)</a>
 <br>***2.*** Run the Python 2.7 installer, add it to System Path.
 <br>***3.*** Extract all of the libraries.
 <br>***4.*** Run "python setup.py install" in the library folder to install it.
