@@ -58,13 +58,18 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>__7.__ Go into folder with Pyinstaller libraries (still in venv).
 <br>__8.__ Install the libraries furthest on the right first:
 <br>**For example, Pyinstaller required Pefile, which requires Future**
-<br>**Pyinstaller 3.5**
+<br>**Pyinstaller 3.5 (will be abandoned due to A LOT of dependencies and countless problems)**
 <br>*|---setuptools-42.0.2
 <br>*|---dis3-0.1.3
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.16.1*
 <br>*|---pefile-2019.4.18*
 <br>*|---|---future-0.18.2*
+<br>**Pyinstaller 3.3 (less dependencies, still Python 2.7 though)**
+<br>*|---|Setuptools(42.0.2 works)
+<br>*|---|Pywin32-ctypes-0.2.0
+<br>*|---|Macholib-1.8
+<br>*|---|Pefile-2017.8.1
 <br>***Note: install all of these packages manually***, as Python 2.7 has broken SSL compatibility and is unable to install the packages itself. This is how I did it.
 <br>Test using *__pyinstaller --version__*
 <br>NOTE: As of writing, it is unknown if Python 2.7 scripts compiled using Pyinstaller 3.5 on Windows 11 work on Windows XP.
@@ -78,11 +83,17 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 <br>***3.*** Extract all of the libraries.
 <br>***4.*** Run "python setup.py install" in the library folder to install it.
 <br>Install the libraries furthest on the right first:
-<br>**Pyinstaller 3.5**
+<br>**Pyinstaller 3.5 (abandoned due to A LOT of dependencies and countless problems)**
 <br>*|---pywin32-ctypes-0.2.0*
 <br>*|---altgraph-0.17.4*
 <br>*|---pefile-2017.8.1*
 <br>*|---|---future-0.18.2*
+<br>No worries about dependencies with dependencies with Pyinstaller 3.3:
+<br>**Pyinstaller 3.3 (less dependencies, still Python 2.7 though)**
+<br>*|---|Setuptools(42.0.2 works)
+<br>*|---|Pywin32-ctypes-0.2.0
+<br>*|---|Macholib-1.8
+<br>*|---|Pefile-2017.8.1
 <br>***5.*** Once you installed everything, run "pyinstaller --version"
 <br>If Pyinstaller says you don't have a library that you actually have, make sure Python 2.7 is added to System Path and doesn't have compatibility issues with other Python versions (like Python 3.4 in my case).
 <br>***6.*** Done! You can use Pyinstaller to compile .py into .exe. Make sure you have all the libraries required for that script, or the .exe will crash immediately!
