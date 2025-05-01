@@ -43,6 +43,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  
 # Build from source
 <br>Currently trying Nuitka.
+<br>Considering coding the antivirus in Visual Basic due to compatibility + VB is easy.
 
 # Future Additions
 * Packet inspection
