@@ -42,8 +42,21 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>-->log_viewer.exe
  
 # Build from source
-<br>Currently trying Nuitka.
-<br>Considering coding the antivirus in Visual Basic due to compatibility + VB is easy.
+<br>You will need:
+<br>__Py2Exe__
+<br>You can get Py2Exe as .iso file mountable to VM here: <a href="https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/py2exe-0.6.9.iso">
+<br>*__Steps:__*
+<br>**1.** Mount py2exe .iso into your Windows XP
+<br>**2.** Run the installer.
+<br>**3.** Once you installed Py2Exe, make a "setupy.py" that looks like this:
+<br>from distutils.core import setup
+<br>import py2exe
+<br>
+<br>setup(console=['yourscript.py'])
+<br>**4.** In the same directory, run:
+<br>*python setup.py py2exe
+<br>**5.** Done! 
+<br> I wasted over 35 hours on this... trying out different ways... until finally...
 
 # Future Additions
 * Packet inspection
