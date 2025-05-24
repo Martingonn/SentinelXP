@@ -4,7 +4,7 @@
 * Anti-phishing website module - prevents user from connecting to malicious site by terminating that connection
 * MITM detector - does not allow user to browse until they get rid of MITM
 * GUI version (maybe)
-* Menu module to operate on other modules - the first thing made on this project
+* Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
 * Sneaky download prevention - websites will not download anything without your knowledge!
 * Cookie and tracker blocker
 * Fingerprinting prevention
