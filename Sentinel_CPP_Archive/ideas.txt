@@ -9,6 +9,7 @@
 * Cookie and tracker blocker
 * Fingerprinting prevention
 * Hash comparer - checks for malware from malware database, will also use fuzzy hashes
+* Hash maker - if you find new malware, you will be able to get its hash and send the hash to me so that it will be detected in the future
 * Fortifier module - turns off selected unsafe features. Will include:
   * RDP port
   * USB autorun
