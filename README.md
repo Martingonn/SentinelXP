@@ -11,6 +11,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>***Encouragement***
  <br><a href="https://www.xpforums.com/members/xperceniol.2881/">xperceniol</a> over on XP forums
  <br><a href="https://www.xpforums.com/members/cleverscreenname.3089/">cleverscreenname </a>on XP Forums
+ <br><a href="https://www.xpforums.com/members/boss1968.3085/">boss1968 </a>on XP Forums
  # How can you contribute?
  Simply make a contribution here, on Github. Another, better way, would be to send me links to malware repositories so that I can train the antivirus.
  <br> Remember, you have to send me the links/files yourself, as I have no server to send the files to. When I will have, I will only send out file hashes. You will be able to see that, as the project will be open-source forever.
@@ -21,6 +22,9 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
   **Just run the executable!**
 # Build from source
 <br>**Structure**
+<br>**C++**
+
+<br>**Archival for Python**
  <br>SentinelXP
  <br>-->SentinelInterface.exe
  <br>-->compare_hashes
@@ -43,6 +47,10 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>-->log_viewer.exe
  
 # Build from source
+# C++
+<br>Will use MinGW on Windows XP.
+# Archival - Python
+<br>*Leaving this in because I spent over 35 hours on this.
 <br>You will need:
 <br>__Py2Exe__
 <br>You can get Py2Exe as .iso file mountable to VM here: <a href="https://github.com/Martingonn/SentinelXP/blob/main/Build/Build%20Tools/py2exe-0.6.9.iso">
@@ -67,6 +75,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 * GUI version (maybe)
 * Menu module to operate on other modules
 * Sneaky download prevention
+For more, check out ideas.txt: 
 
 # Downloads
 ![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/SentinelXP/total)
