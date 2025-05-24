@@ -25,3 +25,7 @@
 * Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one
 * Proxy - routes traffic through another OS, preferably a new one. The proxy will detect any malicious traffic that you might exhibit.
 * "Unknown Publisher" warning will be tweaked
+* Potentially Unwanted Program and Bloatware detection (also via hashes and fuzzy hashes)
+* Intrusive Cookie Clearance
+* Temp file clearance
+* Storage tips (unused programs, temp files etc. that can be deleted)
