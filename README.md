@@ -76,7 +76,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 * GUI version (maybe)
 * Menu module to operate on other modules
 * Sneaky download prevention
-For more, check out ideas.txt: 
+For more, check out ideas.txt: https://github.com/Martingonn/SentinelXP/blob/main/Sentinel_CPP_Archive/ideas.txt
 
 # Downloads
 ![GitHub All Releases](https://img.shields.io/github/downloads/Martingonn/SentinelXP/total)
