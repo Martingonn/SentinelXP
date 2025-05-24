@@ -15,6 +15,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  # How can you contribute?
  Simply make a contribution here, on Github. Another, better way, would be to send me links to malware repositories so that I can train the antivirus.
  <br> Remember, you have to send me the links/files yourself, as I have no server to send the files to. When I will have, I will only send out file hashes. You will be able to see that, as the project will be open-source forever.
+ <br>**You can also join the conversation here:** https://www.xpforums.com/conversations/windowsxp-antivirus.272/
 # Disclaimer!!!
 **We are not viable for any damages you sustain due to malware!!!**
 **The best antivirus is staying vigilant with what you do in the internet!!!**
