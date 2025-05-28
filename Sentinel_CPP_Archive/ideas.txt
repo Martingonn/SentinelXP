@@ -29,3 +29,4 @@
 * Intrusive Cookie Clearance
 * Temp file clearance
 * Storage tips (unused programs, temp files etc. that can be deleted)
+* Behaviour blocker - blocks common malware behaviours like opening ports
