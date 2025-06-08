@@ -4,7 +4,6 @@
 * Anti-phishing website module - prevents user from connecting to malicious site by terminating that connection
 * MITM detector - does not allow user to browse until they get rid of MITM
 * GUI version (maybe)
-* Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
 * Sneaky download prevention - websites will not download anything without your knowledge!
 * Cookie and tracker blocker
 * Fingerprinting prevention
@@ -14,13 +13,12 @@
   * RDP port
   * USB autorun
   * XP File Sharing Services
-* File Monitor - shows files being modified, accessed and the programs that do these actions
 * The antivirus will remove the "No antivirus" pop-up
 * Metadata wiper - will wipe from .txt and image files, will add more later on
 * Rootkit scanner - will check for rootkits
 * Windows Integrity Check - will check for infected Windows processes
 * Vigilant Mode - you have to accept Windows processes manually
-* .cfg file that saves user preferences
+* .cfg files that saves user preferences
 * Light Mode and Dark Mode for GUI (maybe, depends on GUI)
 * Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one
 * Proxy - routes traffic through another OS, preferably a new one. The proxy will detect any malicious traffic that you might exhibit.
@@ -30,3 +28,12 @@
 * Temp file clearance
 * Storage tips (unused programs, temp files etc. that can be deleted)
 * Behaviour blocker - blocks common malware behaviours like opening ports
+
+///Done\\\
+* Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
+* File Monitor - shows files being modified, accessed and created, alerts if that happens in system
+
+///Expansion ideas\\\
+* Menu module will show Security Tip of the Day
+* Menu will have presets that each run specified modules (each specified by user)
+* File monitor will show and block malicious processes (will require custom kernel module)
