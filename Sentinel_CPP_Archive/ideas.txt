@@ -13,7 +13,6 @@
   * RDP port
   * USB autorun
   * XP File Sharing Services
-* The antivirus will remove the "No antivirus" pop-up
 * Metadata wiper - will wipe from .txt and image files, will add more later on
 * Rootkit scanner - will check for rootkits
 * Vigilant Mode - you have to accept Windows processes manually
@@ -28,14 +27,17 @@
 * Storage tips (unused programs, temp files etc. that can be deleted)
 * RAM tips - will show which processes use the most RAM.
 * Behaviour blocker - blocks common malware behaviours like opening ports
+* Installer - will have "no antivirus" popup removal and GUID generation built-in
 * Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
 
 ///Done\\\
 * Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
 * File Monitor - shows files being modified, accessed and created, alerts if that happens in system
 * Windows Integrity Check - checks for missing/corrupted .dlls
+* "No antivirus" pop-up remover script
 
 ///Expansion ideas\\\
+* The antivirus will remove the "No antivirus" pop-up only if it has unique GUID for user, therefore a GUID generator will be needed
 * Menu module will show Security Tip of the Day
 * Menu will have presets that each run specified modules (each specified by user)
 * File monitor will show and block malicious processes (will require custom kernel module)
