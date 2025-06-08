@@ -43,6 +43,7 @@
 * File monitor will show and block malicious processes (will require custom kernel module)
 * Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
 * Windows Integrity Check will automatically get syslist.txt and put it into "settings" folder when none is present
+* Windows Integrity Check will diagnose if a specific system file missing is related to a known type of worm
 
 ///Finished expansion ideas\\\
 * Windows Integrity Check checks for A LOT MORE system files missing. Moreover, you can create a list of files to check for yourself.
