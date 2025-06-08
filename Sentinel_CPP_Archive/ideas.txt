@@ -17,7 +17,7 @@
 * Metadata wiper - will wipe from .txt and image files, will add more later on
 * Rootkit scanner - will check for rootkits
 * Vigilant Mode - you have to accept Windows processes manually
-* .cfg files that saves user preferences
+* .cfg files that saves user preferences FOR EVERY SCRIPT
 * Light Mode and Dark Mode for GUI (maybe, depends on GUI)
 * Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one
 * Proxy - routes traffic through another OS, preferably a new one. The proxy will detect any malicious traffic that you might exhibit.
@@ -27,6 +27,7 @@
 * Temp file clearance
 * Storage tips (unused programs, temp files etc. that can be deleted)
 * Behaviour blocker - blocks common malware behaviours like opening ports
+* Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
 
 ///Done\\\
 * Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
@@ -37,6 +38,8 @@
 * Menu module will show Security Tip of the Day
 * Menu will have presets that each run specified modules (each specified by user)
 * File monitor will show and block malicious processes (will require custom kernel module)
-* Windows Integrity Check will now check for more .dll files missing
-* Windows Integrity Check will allow for presets. For example, if you modified your XP using nLite, you will be able to skip the warnings for components that you removed.
 * Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
+
+///Finished expansion ideas\\\
+* Windows Integrity Check checks for A LOT MORE system files missing. Moreover, you can create a list of files to check for yourself.
+* Windows Integrity Check allows for presets. For example, if you modified your XP using nLite, you will be able to skip the warnings for components that you removed.
