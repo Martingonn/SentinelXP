@@ -48,8 +48,8 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br>-->log_viewer.exe
  
 # Build from source
-# C++
-<br>Will use MinGW on Windows XP.
+# C++ 98
+<br>Use gcc 3.4.5 from MinGW on Windows XP.
 # Archival - Python
 <br>*Leaving this in because I spent over 35 hours on this.
 <br>You will need:
@@ -76,6 +76,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 * GUI version (maybe)
 * Menu module to operate on other modules
 * Sneaky download prevention
+* A LOT MORE
 For more, check out ideas.txt: https://github.com/Martingonn/SentinelXP/blob/main/Sentinel_CPP_Archive/ideas.txt
 
 # Downloads
