@@ -26,6 +26,7 @@
 * Intrusive Cookie Clearance
 * Temp file clearance
 * Storage tips (unused programs, temp files etc. that can be deleted)
+* RAM tips - will show which processes use the most RAM.
 * Behaviour blocker - blocks common malware behaviours like opening ports
 * Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
 
