@@ -37,4 +37,6 @@
 * Menu module will show Security Tip of the Day
 * Menu will have presets that each run specified modules (each specified by user)
 * File monitor will show and block malicious processes (will require custom kernel module)
-* Windows Integrity Check will now check for more applications missing
+* Windows Integrity Check will now check for more .dll files missing
+* Windows Integrity Check will allow for presets. For example, if you modified your XP using nLite, you will be able to skip the warnings for components that you removed.
+* Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
