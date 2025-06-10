@@ -24,8 +24,8 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 # Build from source
 <br>**Structure**
 <br>**C++**
-Located here: https://github.com/Martingonn/SentinelXP/blob/main/Sentinel_CPP_Archive/structure.txt
-Once finished, will be pasted over.
+<br>Located here: https://github.com/Martingonn/SentinelXP/blob/main/Sentinel_CPP_Archive/structure.txt
+<br>Once finished, will be pasted over.
 # C++ 98
 <br>Use gcc 3.4.5 from MinGW on Windows XP.
 # Archival - Python
