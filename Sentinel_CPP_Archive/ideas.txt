@@ -25,7 +25,6 @@
 * Intrusive Cookie Clearance
 * Temp file clearance
 * Storage tips (unused programs, temp files etc. that can be deleted)
-* RAM tips - will show which processes use the most RAM.
 * Behaviour blocker - blocks common malware behaviours like opening ports
 * Installer - will have "no antivirus" popup removal and GUID generation built-in
 * Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
@@ -35,6 +34,7 @@
 * File Monitor - shows files being modified, accessed and created, alerts if that happens in system
 * Windows Integrity Check - checks for missing/corrupted .dlls
 * "No antivirus" pop-up remover script (no support for GUID yet)
+* RAM checker - shows RAM used by Windows and non-Windows processes.
 
 ///Expansion ideas\\\
 * The antivirus will remove the "No antivirus" pop-up only if it has unique GUID for user, therefore a GUID generator will be needed
