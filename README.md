@@ -1,5 +1,5 @@
 # SentinelXP
-An antivirus for Windows XP. Free, forever, no spyware, no bloatware.
+An antivirus for Windows XP focusing on diagnostics and user choice. Free, forever, no spyware, no bloatware.
 # What is it?
 There will be a few scripts combined by an interface.
 # Original Author 
