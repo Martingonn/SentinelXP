@@ -24,30 +24,8 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
 # Build from source
 <br>**Structure**
 <br>**C++**
-
-<br>**Archival for Python**
- <br>SentinelXP
- <br>-->SentinelInterface.exe
- <br>-->compare_hashes
- <br>-->-->malware_log.txt
- <br>-->malware_hashes
-    <br>-->malware_list.txt
- <br>-->packet_inspection
- <br>-->connection_monitor.exe
- <br>-->-->connection_monitor.exe
- <br>-->-->whitelisted_specific.txt
- <br>-->-->whitelisted_ips.txt
- <br>-->-->whitelisted_ports.txt
- <br>-->-->blocked_ips.txt
- <br>-->-->blocked_ports.txt
- <br>-->-->connection_logs.txt
- <br>-->phishing_prevention
-    <br>phishing_prevention.exe
-    <br>-->phishing_website_list.txt
-    <br>warning.html
- <br>-->log_viewer.exe
- 
-# Build from source
+Located here: https://github.com/Martingonn/SentinelXP/blob/main/Sentinel_CPP_Archive/structure.txt
+Once finished, will be pasted over.
 # C++ 98
 <br>Use gcc 3.4.5 from MinGW on Windows XP.
 # Archival - Python
