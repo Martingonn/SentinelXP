@@ -1,0 +1,1 @@
+A00001 - storageCheck does not properly create/overwrite previous_size.txt in logs folder, but detects it succesfully
