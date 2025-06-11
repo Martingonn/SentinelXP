@@ -18,16 +18,15 @@
 * Vigilant Mode - you have to accept Windows processes manually
 * .cfg files that saves user preferences FOR EVERY SCRIPT
 * Light Mode and Dark Mode for GUI (maybe, depends on GUI)
-* Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one
 * Proxy - routes traffic through another OS, preferably a new one. The proxy will detect any malicious traffic that you might exhibit.
 * "Unknown Publisher" warning will be tweaked
 * Potentially Unwanted Program and Bloatware detection (also via hashes and fuzzy hashes)
 * Intrusive Cookie Clearance
-* Temp file clearance
-* Storage tips (unused programs, temp files etc. that can be deleted)
+* Temp file clearance (maybe)
 * Behaviour blocker - blocks common malware behaviours like opening ports
 * Installer - will have "no antivirus" popup removal and GUID generation built-in
 * Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
+* Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one (will require custom kernel module)
 
 ///Done\\\
 * Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
@@ -44,6 +43,9 @@
 * Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
 * Windows Integrity Check will automatically get syslist.txt and put it into "settings" folder when none is present
 * Windows Integrity Check will diagnose if a specific system file missing is related to a known type of worm
+
+//Bugs\\
+* Fix A00001 error for Storage Check
 
 ///Finished expansion ideas\\\
 * Windows Integrity Check checks for A LOT MORE system files missing. Moreover, you can create a list of files to check for yourself.
