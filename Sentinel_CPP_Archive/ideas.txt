@@ -4,7 +4,7 @@
 * Anti-phishing website module - prevents user from connecting to malicious site by terminating that connection
 * MITM detector - does not allow user to browse until they get rid of MITM
 * GUI version (maybe)
-* Sneaky download prevention - websites will not download anything without your knowledge!
+* Sneaky/side download prevention - websites will not download anything without your knowledge!
 * Cookie and tracker blocker
 * Fingerprinting prevention
 * Hash comparer - checks for malware from malware database, will also use fuzzy hashes
@@ -13,7 +13,6 @@
   * RDP port
   * USB autorun
   * XP File Sharing Services
-* Metadata wiper - will wipe from .txt and image files, will add more later on
 * Rootkit scanner - will check for rootkits
 * Vigilant Mode - you have to accept Windows processes manually
 * .cfg files that saves user preferences FOR EVERY SCRIPT
@@ -33,7 +32,8 @@
 * File Monitor - shows files being modified, accessed and created, alerts if that happens in system
 * Windows Integrity Check - checks for missing/corrupted .dlls
 * "No antivirus" pop-up remover script (no support for GUID yet)
-* RAM checker - shows RAM used by Windows and non-Windows processes.
+* RAM checker - shows RAM used by Windows and non-Windows processes
+* Metadata wiper - wipes metadata from .jpg and .txt files
 
 ///Expansion ideas\\\
 * The antivirus will remove the "No antivirus" pop-up only if it has unique GUID for user, therefore a GUID generator will be needed
@@ -43,9 +43,11 @@
 * Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
 * Windows Integrity Check will automatically get syslist.txt and put it into "settings" folder when none is present
 * Windows Integrity Check will diagnose if a specific system file missing is related to a known type of worm
+* Make Metadata Wiper clean more files of metadata
 
 //Bugs\\
 * Fix A00001 error for Storage Check
+* Fix A00002 error for Metadata Wiper
 
 ///Finished expansion ideas\\\
 * Windows Integrity Check checks for A LOT MORE system files missing. Moreover, you can create a list of files to check for yourself.
