@@ -40,15 +40,15 @@
 * Menu module will show Security Tip of the Day
 * Menu will have presets that each run specified modules (each specified by user)
 * File monitor will show and block malicious processes (will require custom kernel module)
-* Windows Integrity Check will play success.wav when no files are missing (code is there, .wav is not)
-* Windows Integrity Check will automatically get syslist.txt and put it into "settings" folder when none is present
-* Windows Integrity Check will diagnose if a specific system file missing is related to a known type of worm
 * Make Metadata Wiper clean more files of metadata
 
 //Bugs\\
 * Fix A00001 error for Storage Check
 * Fix A00002 error for Metadata Wiper
+* Fix A00003 error for Windows Integrity Check
 
 ///Finished expansion ideas\\\
 * Windows Integrity Check checks for A LOT MORE system files missing. Moreover, you can create a list of files to check for yourself.
 * Windows Integrity Check allows for presets. For example, if you modified your XP using nLite, you will be able to skip the warnings for components that you removed.
+* Windows Integrity Check will play success.wav when integrity is above 95%
+* Windows Integrity Check automatically creates system_state.conf and puts it into "settings" folder when none is present
