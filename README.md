@@ -12,6 +12,7 @@ If you have any problems or suggestions, contact me: *martingonn-dev@outlook.com
  <br><a href="https://www.xpforums.com/members/xperceniol.2881/">xperceniol</a> over on XP forums
  <br><a href="https://www.xpforums.com/members/cleverscreenname.3089/">cleverscreenname </a>on XP Forums
  <br><a href="https://www.xpforums.com/members/boss1968.3085/">boss1968 </a>on XP Forums
+ <br><a href="https://www.xpforums.com/members/madeleine-takam.2489/">Madeleine Takam </a>on XP Forums
  # How can you contribute?
  Simply make a contribution here, on Github. Another, better way, would be to send me links to malware repositories so that I can train the antivirus.
  <br> Remember, you have to send me the links/files yourself, as I have no server to send the files to. When I will have, I will only send out file hashes. You will be able to see that, as the project will be open-source forever.
