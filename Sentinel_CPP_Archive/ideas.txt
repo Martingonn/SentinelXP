@@ -30,6 +30,7 @@
 * Anti Lockout - no popup will force you to act - just close it and continue doing whatever you were doing
 * Install Check - inspired by Hitman Pro, checks what an installer does/modifies
 * Callhome Console - checks which processes are trying to "call home" (reaching out to servers, especially if that is unwanted)
+* Quarantine - all network connections closed, all non-system processes closed, user given OS state report, no files modified without user permission
 
 ///Done\\\
 * Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
