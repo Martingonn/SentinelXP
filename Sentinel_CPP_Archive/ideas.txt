@@ -26,6 +26,10 @@
 * Installer - will have "no antivirus" popup removal and GUID generation built-in
 * Instruction manual - will be a .pdf outlining file structure and different quirks of the modules
 * Directory Protector - protects specified directories (or entire disk) from being accessed/modified by any process except this one (will require custom kernel module)
+* Get Update - checks this repo for new updates, will probably have a way of updating automatically (without user manually moving files)
+* Anti Lockout - no popup will force you to act - just close it and continue doing whatever you were doing
+* Install Check - inspired by Hitman Pro, checks what an installer does/modifies
+* Callhome Console - checks which processes are trying to "call home" (reaching out to servers, especially if that is unwanted)
 
 ///Done\\\
 * Menu module to operate on other modules - the first thing made on this project, will show Security Tip of the Day
